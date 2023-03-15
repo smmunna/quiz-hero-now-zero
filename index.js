@@ -187,15 +187,4 @@ const displayQuiz = (data) => {
     window.scrollTo(0, 0);
   
   })
-
-
-
 };
-
-
-
-// EventListener for quiz submit button
-// document.getElementById("submit").addEventlistener("click", () => {
- 
-
-// });
