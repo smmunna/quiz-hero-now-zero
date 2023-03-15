@@ -26,10 +26,21 @@
   <main class="px-2 md:px-52">
         <!-- Section 01 Started -->
         <section class="mt-10">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-                <div class="">
-                    <h3 class="text-3xl">Map</h3>
-                    <p></p>
+            <div class="grid grid-cols-1 gap-4">
+                <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
+                    <h3 class="text-2xl">1. Map</h3>
+                    <p>In JavaScript, the map() function is used to create a new array by calling a specific function on each element present in the parent array. Here is an example of how to use the map() function in JavaScript:</p>
+                    <br>
+                    <div class="p-4 text-blue-500">
+                            const numbers = [1, 2, 3, 4, 5]; <br>
+                            const doubledNumbers = numbers.map((number) => { <br>
+                            return number * 2; <br>
+                            }); <br>
+                            console.log(doubledNumbers); <br>
+                    </div>
+                    <p>
+                        In this example, the map() function is used to create a new array called doubledNumbers which contains the original numbers array with each element doubled. The map() function takes a callback function as an argument, which is called for each element in the array. The callback function returns the new value for each element, which is then added to the new array.
+                    </p>
                 </div>
                 <div>
                     <h3>Filter</h3>
