@@ -4,9 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Page | Munna</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            common: ["Rubik", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
 </head>
-<body>
+<body class="font-common">
    <!-- Header/Navbar section start -->
    <header class="h-16 flex items-center shadow-sm">
     <nav class="flex justify-between items-center w-9/12 mx-auto">
