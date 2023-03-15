@@ -79,7 +79,7 @@ const displayQuiz = (data) => {
   const submitBtn = document.querySelector('#submit');
   submitBtn.addEventListener('click',()=>{
     if (answers.length < 6) {
-      return;
+      return alert('Select the 6 Question..!');
     }
     quizTimer(true);
     answersContainer.innerHTML = `<div class="my-4">
