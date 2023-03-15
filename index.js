@@ -73,15 +73,12 @@ const displayQuiz = (data) => {
   });
 };
 
-
 // EventListener for quiz submit button
 document.querySelector("#submit").addEventlistener("click", () => {
   if (answers.length < 6) {
     return;
   }
-
-
-  quizTimer();
+  quizTimer(true);
   answersContainer.innerHTML = `<div class="my-4">
   <i class="fa-solid fa-fan animate-spin text-2xl text-green-600"></i>
   <p class="text-xs animate-pulse">Please Wait, We are checking...</p>
@@ -185,3 +182,4 @@ document.querySelector("#submit").addEventlistener("click", () => {
     clearTimeout(x);
   }, 1500);
   window.scrollTo(0, 0);
+});
