@@ -125,17 +125,23 @@
                 <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
                     <h3 class="text-2xl">5. QuizTimer()</h3>
                     <p>
-                        This function sets up a countdown timer on our quiz. It takes a single argument, 'dismiss', which is a boolean that determines whether the timer should be stopped or not.
+                        This function sets up a countdown timer on our quiz. It takes a single argument, 'dismiss',
+                        which is a boolean that determines whether the timer should be stopped or not.
                         It takes the value 'true' or 'false' only.
-                        If dismiss is true, the function clears the interval using clearInterval(timer) and returns, effectively stopping the timer.
-                        else If dismiss is false or empty, the function starts the timer using setInterval(). The timer function increments a count variable every second, updates the HTML of a DOM element with id count, and changes the color of the text every 60 seconds.
-                    </p> 
+                        If dismiss is true, the function clears the interval using clearInterval(timer) and returns,
+                        effectively stopping the timer.
+                        else If dismiss is false or empty, the function starts the timer using setInterval(). The timer
+                        function increments a count variable every second, updates the HTML of a DOM element with id
+                        count, and changes the color of the text every 60 seconds.
+                    </p>
                 </div>
                 <!-- Sixth Div -->
                 <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
                     <h3 class="text-2xl">6. chooseQuiz()</h3>
-                    <p>The chooseQuiz function takes two parameters: 'index' and 'givenAns'. It first checks if an answer with the same id as the current question exists in the answers array. 
-                        If it exist, it updates the existing answer with the new givenAns. If it doesn't exist, it adds a new object with the id, question, and givenAns to the answers array. 
+                    <p>The chooseQuiz function takes two parameters: 'index' and 'givenAns'. It first checks if an
+                        answer with the same id as the current question exists in the answers array.
+                        If it exist, it updates the existing answer with the new givenAns. If it doesn't exist, it adds
+                        a new object with the id, question, and givenAns to the answers array.
                         Finally, it calls the displayAnswers function to display the updated answers array.</p>
                 </div>
             </div>
@@ -152,4 +158,5 @@
     <!-- Custom JS -->
     <script src="../js/blog.js"></script>
 </body>
+
 </html>
