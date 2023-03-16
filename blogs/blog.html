@@ -133,21 +133,10 @@
                 </div>
                 <!-- Sixth Div -->
                 <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
-                    <h3 class="text-2xl">4. forEach()</h3>
-                    <p>The forEach() method is useful when you need to perform an action on each element in an array</p>
-
-                    <div class="p-4 text-yellow-600">
-                        const numbers = [1, 2, 3, 4, 5]; <br>
-
-                        numbers.forEach((number) => { <br>
-                        console.log(number); <br>
-                        }); <br>
-
-                    </div>
-                    <p>
-                        In this example, the callback function logs the current element to the console on each iteration
-                        of the loop.
-                    </p>
+                    <h3 class="text-2xl">6. chooseQuiz()</h3>
+                    <p>The chooseQuiz function takes two parameters: 'index' and 'givenAns'. It first checks if an answer with the same id as the current question exists in the answers array. 
+                        If it exist, it updates the existing answer with the new givenAns. If it doesn't exist, it adds a new object with the id, question, and givenAns to the answers array. 
+                        Finally, it calls the displayAnswers function to display the updated answers array.</p>
                 </div>
             </div>
         </section>
