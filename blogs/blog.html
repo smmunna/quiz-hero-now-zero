@@ -42,7 +42,7 @@
     <main class="px-2 md:px-20 lg:px-52">
         <!-- Section 01 Started -->
         <section class="mt-10">
-            <div class="grid grid-cols-1 gap-4">
+            <div class="grid grid-cols-1 gap-4 text-justify">
                 <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
                     <h3 class="text-2xl">1. Map</h3>
                     <p>In JavaScript, the map() function is used to create a new array by calling a specific function on
@@ -104,6 +104,34 @@
                     </p>
                 </div>
                 <!-- Forth DIV -->
+                <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
+                    <h3 class="text-2xl">4. forEach()</h3>
+                    <p>The forEach() method is useful when you need to perform an action on each element in an array</p>
+
+                    <div class="p-4 text-yellow-600">
+                        const numbers = [1, 2, 3, 4, 5]; <br>
+
+                        numbers.forEach((number) => { <br>
+                        console.log(number); <br>
+                        }); <br>
+
+                    </div>
+                    <p>
+                        In this example, the callback function logs the current element to the console on each iteration
+                        of the loop.
+                    </p>
+                </div>
+                <!-- Fifth Div -->
+                <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
+                    <h3 class="text-2xl">5. QuizTimer()</h3>
+                    <p>
+                        This function sets up a countdown timer on our quiz. It takes a single argument, 'dismiss', which is a boolean that determines whether the timer should be stopped or not.
+                        It takes the value 'true' or 'false' only.
+                        If dismiss is true, the function clears the interval using clearInterval(timer) and returns, effectively stopping the timer.
+                        else If dismiss is false or empty, the function starts the timer using setInterval(). The timer function increments a count variable every second, updates the HTML of a DOM element with id count, and changes the color of the text every 60 seconds.
+                    </p> 
+                </div>
+                <!-- Sixth Div -->
                 <div class="border-solid border-2 border-sky-500 p-4 " style="background-color: aliceblue;">
                     <h3 class="text-2xl">4. forEach()</h3>
                     <p>The forEach() method is useful when you need to perform an action on each element in an array</p>
